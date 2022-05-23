@@ -49,6 +49,11 @@ Pour ce faire, un propriétaire de parking renseigne les informations de son par
     On s'assure que c'est bien le propriétaire qui accède à cette fonction
     On met à jour la balance avant de transférer les fonds
 
+
+## README du contrat parkT
+
+   [NatSpec ParkT.sol](https://htmlpreview.github.io/?https://github.com/ParkT-Alyra/parkT/blob/main/ParkT.html)
+   
 ## Tools Required:
 
 Avant de cloner le repository, assurez-vous d'avoir installé :
