@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Le projet ParkT consiste à mettre à disposition de conducteur des parkings privés.
+Le projet ParkT consiste à mettre à disposition de conducteurs des parkings privés.
 Pour ce faire, un propriétaire de parking renseigne les informations de son parking :
 
     * L'addresse du wallet du propriétaire
@@ -11,6 +11,8 @@ Pour ce faire, un propriétaire de parking renseigne les informations de son par
     * Un prix correspondant au dépot de garantie
     * Des coordonnées précises de la localisation du parking (coordonnées GPS)
     * Un code postal permettant de faire la recherche des parkings à proximité via le front
+    * L'addresse du wallet de l'IOT
+    * L'addresse du wallet de la barrière
 
 ## Fonctionnalités
 
@@ -35,7 +37,7 @@ Pour ce faire, un propriétaire de parking renseigne les informations de son par
 
 ### Fin de la réservation
 
-    On vérifie que l'utilisateur qui appelle la fonction releaseParking est bien celui qui a réservé
+    On vérifie que l'utilisateur qui appelle la fonction releaseParking est bien celui qui a réservé (couplé à l'IOT)
     On arrête le compteur pour le paiement de la réservation
     On séquestre le montant qui doit être payé au propriétaire
     On rend les fonds non utilisés au conducteur
@@ -78,7 +80,7 @@ Avant de cloner le repository, assurez-vous d'avoir installé :
 
 Cloner le repo : 
 
-`git clone https://github.com/KevinColo/parkT.git`
+`git clone https://github.com/ParkT-Alyra/parkT`
 
 Une fois le repo cloné :
 	
@@ -87,6 +89,8 @@ Une fois le repo cloné :
 Pour installer les dépendances.
 
 Ensuite, déplacez-vous dans le répertoire client. Dans votre terminal/ligne de commande, exécutez :
+
+	npm install (dépendance front)
 
 	truffle test
 	
