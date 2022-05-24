@@ -3,12 +3,12 @@
 
 ## Introduction
 
-Le projet ParkT consiste à mettre à disposition, de conducteurs recherchant une place, des parkings privés.
+Le projet ParkT consiste à mettre à disposition de conducteurs recherchant une place, des parkings privés.
 Pour ce faire, un propriétaire de parking renseigne les informations de son parking :
 
     * L'addresse du wallet du propriétaire
     * Un prix à la seconde
-    * Un prix correspondant au dépot de garantie
+    * Un prix correspondant au dépot de garantie (en cours)
     * Des coordonnées précises de la localisation du parking (coordonnées GPS)
     * Un code postal permettant de faire la recherche des parkings à proximité via le front
     * L'addresse du wallet de l'IOT (en cours)
