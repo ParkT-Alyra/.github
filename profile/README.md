@@ -64,22 +64,6 @@ Avant de cloner le repository, assurez-vous d'avoir installé :
 * Node.js
 * MetaMask
 
-## Fonctionnalités (init):
-### 1ère étape
-	Propriétaire de Parking enregistre un parking slot (ID 1, adresse, disponibilté, commodité)
-	Parking ID-1 disponible
-
-### 2ème étape
-	Conducteur reserve 1 parking (transaction => validée)
-	Parking ID-1 indisponible
-
-### 3ème étape
-	Conducteur libère la place de Parking
-	Mise à jour de la réputation du Parking
-	Mise à jour de la réputation du Conducteur
-	Mise à jour de la disponibilité de la place (IOT + réservé ou non reservé)
-
-
 ## Pour démarrer <a name="getting-started"></a>
 
 Cloner le repo : 
@@ -90,7 +74,7 @@ Une fois le repo cloné :
 	
 	npm install
 
-Pour installer les dépendances.
+Pour installer les dépendances permettant le lancement de truffle ainsi que les tests (hdwallet, openzeppelin, dotenv).
 
 Ensuite, déplacez-vous dans le répertoire client. Dans votre terminal/ligne de commande, exécutez :
 
