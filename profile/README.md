@@ -22,12 +22,12 @@ Pour ce faire, un propriétaire de parking renseigne les informations de son par
 
 ### Reservation d'un parking par un conducteur
 
-* Pré-requis: un wallet (il n'est pas nécessaire d'être enregistré sur l'application)
+Pré-requis: un wallet (il n'est pas nécessaire d'être enregistré sur l'application)
 
-		Le conducteur, au travers d'une interface peut rechercher les parkings à proximité
-		L'existence du parking est vérifié
-    		La disponibilité du parking est vérifié
-    		Le montant de la reservation pour la journée doit être envoyé lors de la réservation
+	Le conducteur, au travers d'une interface peut rechercher les parkings à proximité par code postal (en cours)
+	L'existence du parking est vérifié
+	La disponibilité du parking est vérifié
+	Le montant de la reservation pour la journée doit être envoyé lors de la réservation
 
     Une fois les conditions remplies, le parking est réservé et les informations d'accès au parking
     sont transmis au conducteur.
