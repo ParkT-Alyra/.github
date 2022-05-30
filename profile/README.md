@@ -11,8 +11,8 @@ Pour ce faire, un propriétaire de parking renseigne les informations de son par
     * Un prix correspondant au dépot de garantie (en cours)
     * Des coordonnées précises de la localisation du parking (coordonnées GPS)
     * Un code postal permettant de faire la recherche des parkings à proximité via le front
-    * L'addresse du wallet de l'IOT (en cours)
-    * L'addresse du wallet de la barrière (encours)
+    * Configuration de l'IOT (en cours)
+    * Configuration de la barrière (encours)
 
 ## Fonctionnalités
 
