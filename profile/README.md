@@ -60,6 +60,7 @@ Avant de cloner le repository, assurez-vous d'avoir installé :
 * Solidity
 * Ganache
 * Truffle
+* Box react de truffle
 * Node Package Manager
 * Node.js
 * MetaMask
@@ -85,4 +86,12 @@ Ensuite, déplacez-vous dans le répertoire client. Dans votre terminal/ligne de
 ## Running the dapp:
 
 	npm start
+	
+## Déployer le SC sur Ropsten
+
+	truffle migrate --network ropsten
+	
+## Déployer le front sur gitHub Pages
+	
+	npm deploy
 
