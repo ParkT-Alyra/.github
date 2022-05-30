@@ -83,7 +83,7 @@ Ensuite, déplacez-vous dans le répertoire client. Dans votre terminal/ligne de
 
 	truffle test
 	
-## Running the dapp:
+## Démarrer l'application en local:
 
 	npm start
 	
